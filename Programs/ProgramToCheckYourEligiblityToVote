@@ -1,0 +1,7 @@
+name = input("Please Enter Your Name : ")
+print("Hello {0}.".format(name))
+age = int(input("How Old Are You? : "))
+if age >= 18:
+    print("Congratulations {0}, You are Old Enough to Vote.".format(name))
+else:
+    print("Sorry {0}. You are not old Enough To Vote. Please comeback to vote in {1} Years.".format(name, str(18-age)))
